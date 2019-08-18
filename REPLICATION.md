@@ -57,9 +57,9 @@ Findings
 - Figures 2 and 3: No program provided. Instructions for replication in README.pdf produced close to (but not exactly) the desired result for 2a, but there were notable inconsistencies in 2b and 3 for higher levels of `students`.
 
 Figure 2 Paper version:
-![Figure 2 Paper version](Figure2.png)
+![Figure 2 Paper version](Figure2.PNG)
 Figure 3 Paper version:
-![Figure 3 Paper version](Figure3.png)
+![Figure 3 Paper version](Figure3.PNG)
 
 Code for Figure 2 suggested by README.pdf:
 ```stata
@@ -83,7 +83,7 @@ tw line clsize_hat students if grade == 0 || sc clsize_snv students if grade == 
 ```
 
 Figure 2 Replicated. Note small inconsistencies around `students = 120, classize = 20`:
-![Figure 2a Replication version](Figure2_remade.png)
+![Figure 2a Replication version](Figure2a_remade.png)
 
 Figure 2 Replicated. Note heavy inconsistencies at high levels of `students`:
 ![Figure 2b Replication version](Figure2b_remade.png)
